@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #34495e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.color-container {
+  display: flex;
+}
+.btns {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.selected {
+  border: 2px solid red;
+}
+.img-shot {
+  width: 300px;
+
+}
